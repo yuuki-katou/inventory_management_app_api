@@ -1,8 +1,6 @@
 # MySQL 8.0をDebianベースのイメージとして使用
 FROM mysql:8.0-debian
 
-apt-key adv --keyserver keys.gnupg.net --recv-keys 5072E1F5
-
 # Debianのパッケージリストを更新
 RUN apt-get update
 
@@ -16,4 +14,3 @@ ENV LC_ALL ja_JP.UTF-8
 
 # ホストの./conf/mysql/my.cnfファイルをコンテナの/etc/my.cnfにコピー
 COPY ./conf/mysql/my.cnf /etc/my.cnf
-
