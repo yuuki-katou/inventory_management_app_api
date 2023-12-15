@@ -27,9 +27,7 @@ jobs:
       - name: Update MySQL key
         run: |
           sudo apt-key del 467B942D3A79BD29
-          wget https://dev.mysql.com/get/mysql-apt-config_0.8.22-1_all.deb
-          sudo dpkg -i mysql-apt-config_0.8.22-1_all.deb
-          sudo apt-get update
+          apt-key adv --keyserver keys.gnupg.net --recv-keys 5072E1F5
 
       - name: Docker run
         run: docker compose up -d
