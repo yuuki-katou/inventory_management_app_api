@@ -1,0 +1,14 @@
+stores:
+  - store_id: 1
+    store_name: "店舗名1"
+    location: "所在地1"
+    telephone_number: "電話番号1"
+  - store_id: 2
+    store_name: "店舗名2"
+    location: "所在地2"
+    telephone_number: "電話番号2"
+  - store_id: 3
+    store_name: "店舗名3"
+    location: "所在地3"
+    telephone_number: "電話番号3"
+

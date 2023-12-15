@@ -1,0 +1,13 @@
+brands:
+  - brand_id: 1
+    brand_name: "ブランド1"
+    address: "住所1"
+    phone_number: "電話番号1"
+  - brand_id: 2
+    brand_name: "ブランド2"
+    address: "住所2"
+    phone_number: "電話番号2"
+  - brand_id: 3
+    brand_name: "ブランド3"
+    address: "住所3"
+    phone_number: "電話番号3"

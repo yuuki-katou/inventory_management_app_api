@@ -1,0 +1,53 @@
+products:
+  - product_id: 1
+    product_name: "商品1"
+    brand_id: 1
+    category_id: 1
+    model_number: "MD-1001"
+    price: 1000.00
+    stock_quantity: 20
+    condition_id: 1
+    description: "商品1の説明"
+    image: "image1.jpg"
+    store_id: 1
+    date_added: "2023-01-01 00:00:00"
+    last_updated: "2023-01-02 00:00:00"
+  - product_id: 2
+    product_name: "商品2"
+    brand_id: 2
+    category_id: 2
+    model_number: "MD-1002"
+    price: 2000.00
+    stock_quantity: 15
+    condition_id: 2
+    description: "商品2の説明"
+    image: "image2.jpg"
+    store_id: 2
+    date_added: "2023-02-01 00:00:00"
+    last_updated: "2023-02-02 00:00:00"
+  - product_id: 3
+    product_name: "商品3"
+    brand_id: 3
+    category_id: 3
+    model_number: "MD-1003"
+    price: 3000.00
+    stock_quantity: 10
+    condition_id: 3
+    description: "商品3の説明"
+    image: "image3.jpg"
+    store_id: 3
+    date_added: "2023-03-01 00:00:00"
+    last_updated: "2023-03-02 00:00:00"
+  - product_id: 4
+    product_name: "商品4"
+    brand_id: 2
+    category_id: 2
+    model_number: "MD-1004"
+    price: 4000.00
+    stock_quantity: 8
+    condition_id: 1
+    description: "商品4の説明"
+    image: "image4.jpg"
+    store_id: 1
+    date_added: "2023-04-01 00:00:00"
+    last_updated: "2023-04-02 00:00:00"

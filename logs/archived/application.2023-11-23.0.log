@@ -1,0 +1,51 @@
+2023/11/23 00:48:43.132 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h10m1s823ms146É s700ns).
+2023/11/23 02:22:19.140 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m4s452ms218É s900ns).
+2023/11/23 21:08:11.596 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2023/11/23 21:08:11.651 [main] INFO  c.y.k.i.InventoryManagementApp01Application - Starting InventoryManagementApp01Application using Java 17.0.8 with PID 14076 (C:\ProjectFiles\inventory_management_app01\build\classes\java\main started by USER in C:\ProjectFiles\inventory_management_app01)
+2023/11/23 21:08:11.653 [main] INFO  c.y.k.i.InventoryManagementApp01Application - No active profile set, falling back to 1 default profile: "default"
+2023/11/23 21:08:12.796 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023/11/23 21:08:12.805 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023/11/23 21:08:12.807 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023/11/23 21:08:12.807 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023/11/23 21:08:12.908 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023/11/23 21:08:12.909 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1208 ms
+2023/11/23 21:08:13.502 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023/11/23 21:08:13.529 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023/11/23 21:08:13.539 [main] INFO  c.y.k.i.InventoryManagementApp01Application - Started InventoryManagementApp01Application in 2.294 seconds (process running for 2.806)
+2023/11/23 21:15:02.196 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2023/11/23 21:15:02.851 [main] INFO  c.y.k.i.InventoryManagementApp01Application - Starting InventoryManagementApp01Application using Java 17.0.8 with PID 4720 (C:\ProjectFiles\inventory_management_app01\build\classes\java\main started by USER in C:\ProjectFiles\inventory_management_app01)
+2023/11/23 21:15:02.853 [main] INFO  c.y.k.i.InventoryManagementApp01Application - No active profile set, falling back to 1 default profile: "default"
+2023/11/23 21:15:07.743 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023/11/23 21:15:07.765 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023/11/23 21:15:07.770 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023/11/23 21:15:07.771 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023/11/23 21:15:08.170 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023/11/23 21:15:08.191 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4966 ms
+2023/11/23 21:15:10.545 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023/11/23 21:15:10.606 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023/11/23 21:15:10.638 [main] INFO  c.y.k.i.InventoryManagementApp01Application - Started InventoryManagementApp01Application in 9.885 seconds (process running for 11.422)
+2023/11/23 21:16:35.420 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023/11/23 21:16:35.421 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023/11/23 21:16:35.422 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023/11/23 21:16:35.466 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023/11/23 21:16:36.010 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@171b7bd5
+2023/11/23 21:16:36.013 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023/11/23 21:23:25.980 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2023/11/23 21:23:26.018 [main] INFO  c.y.k.i.InventoryManagementApp01Application - Starting InventoryManagementApp01Application using Java 17.0.8 with PID 1464 (C:\ProjectFiles\inventory_management_app01\build\classes\java\main started by USER in C:\ProjectFiles\inventory_management_app01)
+2023/11/23 21:23:26.019 [main] INFO  c.y.k.i.InventoryManagementApp01Application - No active profile set, falling back to 1 default profile: "default"
+2023/11/23 21:23:27.108 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023/11/23 21:23:27.115 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023/11/23 21:23:27.117 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023/11/23 21:23:27.117 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023/11/23 21:23:27.213 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023/11/23 21:23:27.215 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1159 ms
+2023/11/23 21:23:27.787 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023/11/23 21:23:27.814 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023/11/23 21:23:27.823 [main] INFO  c.y.k.i.InventoryManagementApp01Application - Started InventoryManagementApp01Application in 2.058 seconds (process running for 2.476)
+2023/11/23 21:23:41.199 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023/11/23 21:23:41.199 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023/11/23 21:23:41.200 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023/11/23 21:23:41.250 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023/11/23 21:23:41.634 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a9cc1c1
+2023/11/23 21:23:41.636 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023/11/23 22:58:58.269 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m45s341ms240É s200ns).

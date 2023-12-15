@@ -1,0 +1,1301 @@
+2023/12/14 09:40:19.490 [Test worker] ERROR c.y.k.i.service.ProductServiceImpl - Product registration failed: ProductDto{productId=0, productName='���i4', modelNumber='MD-1004', brand='�u�����h2', category='�A�R�[�X�e�B�b�N�M�^�[', price=4000.00, stockQuantity=8, condition='�V�i', description='���i4�̐���', image='image4.jpg', store='�X�ܖ�1', storeLocation='null', storeTelephoneNumber='null', dateAdded='null', lastUpdated='null'}
+2023/12/14 09:40:58.814 [Test worker] ERROR c.y.k.i.service.ProductServiceImpl - Product registration failed: ProductDto{productId=0, productName='���i4', modelNumber='MD-1004', brand='�u�����h2', category='�A�R�[�X�e�B�b�N�M�^�[', price=4000.00, stockQuantity=8, condition='�V�i', description='���i4�̐���', image='image4.jpg', store='�X�ܖ�1', storeLocation='null', storeTelephoneNumber='null', dateAdded='null', lastUpdated='null'}
+2023/12/14 09:41:10.100 [Test worker] ERROR c.y.k.i.service.ProductServiceImpl - Product registration failed: ProductDto{productId=0, productName='���i4', modelNumber='MD-1004', brand='�u�����h2', category='�A�R�[�X�e�B�b�N�M�^�[', price=4000.00, stockQuantity=8, condition='�V�i', description='���i4�̐���', image='image4.jpg', store='�X�ܖ�1', storeLocation='null', storeTelephoneNumber='null', dateAdded='null', lastUpdated='null'}
+2023/12/14 09:45:10.782 [Test worker] ERROR c.y.k.i.service.ProductServiceImpl - Product registration failed: ProductDto{productId=0, productName='���i4', modelNumber='MD-1004', brand='�u�����h2', category='�A�R�[�X�e�B�b�N�M�^�[', price=4000.00, stockQuantity=8, condition='�V�i', description='���i4�̐���', image='image4.jpg', store='�X�ܖ�1', storeLocation='null', storeTelephoneNumber='null', dateAdded='null', lastUpdated='null'}
+2023/12/14 10:33:38.206 [Test worker] ERROR c.y.k.i.service.ProductServiceImpl - Product registration failed: ProductDto{productId=4, productName='���i4', modelNumber='MD-1004', brand='�u�����h2', category='�A�R�[�X�e�B�b�N�M�^�[', price=4000.00, stockQuantity=8, condition='�V�i', description='���i4�̐���', image='image4.jpg', store='�X�ܖ�1', storeLocation='null', storeTelephoneNumber='null', dateAdded='null', lastUpdated='null'}
+2023/12/14 11:52:15.277 [Test worker] ERROR c.y.k.i.service.ProductServiceImpl - Product registration failed: ProductDto{productId=0, productName='���i4', modelNumber='MD-1004', brand='�u�����h2', category='�A�R�[�X�e�B�b�N�M�^�[', price=4000.0, stockQuantity=8, condition='�V�i', description='���i4�̐���', image='image4.jpg', store='�X�ܖ�1', storeLocation='null', storeTelephoneNumber='null', dateAdded='null', lastUpdated='null'}
+2023/12/14 14:44:05.968 [Test worker] ERROR c.y.k.i.service.ProductServiceImpl - Product update failed: ProductDto{productId=1, productName='���i4', modelNumber='MD-1004', brand='�u�����h2', category='�A�R�[�X�e�B�b�N�M�^�[', price=4000.0, stockQuantity=8, condition='�V�i', description='���i4�̐���', image='image4.jpg', store='�X�ܖ�1', storeLocation='null', storeTelephoneNumber='null', dateAdded='null', lastUpdated='null'}
+2023/12/14 14:55:21.393 [Test worker] ERROR c.y.k.i.service.ProductServiceImpl - Product deletion failed for Product ID: 1
+2023/12/14 17:12:54.808 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest]: ProductRestApiIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023/12/14 17:12:55.005 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.yuuki.katou.inventory_management_app01.InventoryManagementApp01Application for test class com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest
+2023/12/14 17:12:55.621 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2023/12/14 17:12:55.713 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Starting ProductRestApiIntegrationTest using Java 17.0.8 with PID 12640 (started by USER in C:\ProjectFiles\inventory_management_app01)
+2023/12/14 17:12:55.715 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2023/12/14 17:12:59.051 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023/12/14 17:12:59.052 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023/12/14 17:12:59.057 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2023/12/14 17:12:59.108 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Started ProductRestApiIntegrationTest in 3.809 seconds (process running for 6.271)
+2023/12/14 17:12:59.205 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023/12/14 17:13:00.351 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@333e5fb6
+2023/12/14 17:13:00.357 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023/12/14 17:13:02.188 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:13:02.189 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:13:02.189 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:13:02.193 [Test worker] INFO  c.g.d.r.c.d.DataSetExecutorImpl - DBUnit configuration for dataset executor 'default':cacheConnection: false
+cacheTableNames: false
+caseInsensitiveStrategy: LOWERCASE
+columnSensing: false
+leakHunter: false
+mergeDataSets: false
+mergingStrategy: METHOD
+disableSequenceFiltering: false
+alwaysCleanBefore: false
+alwaysCleanAfter: false
+raiseExceptionOnCleanUp: false
+disablePKCheckFor: com.github.database.rider.core.configuration.DBUnitConfig@e85a405d
+schema: products_list
+tableType: [TABLE]
+allowEmptyFields: false
+fetchSize: 100
+qualifiedTableNames: false
+prologTimeout: 1000
+batchSize: 100
+batchedStatements: false
+caseSensitiveTableNames: false
+replacers: [com.github.database.rider.core.replacers.DateTimeReplacer@5a99543b, com.github.database.rider.core.replacers.UnixTimestampReplacer@4e0802e0, com.github.database.rider.core.replacers.NullReplacer@4a18e0f1]
+
+2023/12/14 17:13:02.193 [Test worker] WARN  c.g.d.r.c.d.DataSetExecutorImpl - Database will not be populated because no dataset has been provided.
+2023/12/14 17:13:02.599 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:13:02.600 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:13:02.600 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:13:02.718 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023/12/14 17:13:02.779 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023/12/14 17:14:52.523 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest]: ProductRestApiIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023/12/14 17:14:52.690 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.yuuki.katou.inventory_management_app01.InventoryManagementApp01Application for test class com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest
+2023/12/14 17:14:53.183 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2023/12/14 17:14:53.256 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Starting ProductRestApiIntegrationTest using Java 17.0.8 with PID 11968 (started by USER in C:\ProjectFiles\inventory_management_app01)
+2023/12/14 17:14:53.257 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2023/12/14 17:14:56.020 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023/12/14 17:14:56.021 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023/12/14 17:14:56.027 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2023/12/14 17:14:56.070 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Started ProductRestApiIntegrationTest in 3.17 seconds (process running for 5.293)
+2023/12/14 17:14:56.117 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023/12/14 17:14:57.064 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e4ecdf8
+2023/12/14 17:14:57.070 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023/12/14 17:14:58.600 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:14:58.600 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:14:58.601 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:14:58.605 [Test worker] INFO  c.g.d.r.c.d.DataSetExecutorImpl - DBUnit configuration for dataset executor 'default':cacheConnection: false
+cacheTableNames: false
+caseInsensitiveStrategy: LOWERCASE
+columnSensing: false
+leakHunter: false
+mergeDataSets: false
+mergingStrategy: METHOD
+disableSequenceFiltering: false
+alwaysCleanBefore: false
+alwaysCleanAfter: false
+raiseExceptionOnCleanUp: false
+disablePKCheckFor: com.github.database.rider.core.configuration.DBUnitConfig@b9f715ad
+schema: products_list
+tableType: [TABLE]
+allowEmptyFields: false
+fetchSize: 100
+qualifiedTableNames: false
+prologTimeout: 1000
+batchSize: 100
+batchedStatements: false
+caseSensitiveTableNames: false
+replacers: [com.github.database.rider.core.replacers.DateTimeReplacer@7e451790, com.github.database.rider.core.replacers.UnixTimestampReplacer@25172993, com.github.database.rider.core.replacers.NullReplacer@3f71ae7f]
+
+2023/12/14 17:15:00.127 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:15:00.127 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:15:00.127 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:15:00.215 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023/12/14 17:15:00.246 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023/12/14 17:15:39.677 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest]: ProductRestApiIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023/12/14 17:15:39.846 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.yuuki.katou.inventory_management_app01.InventoryManagementApp01Application for test class com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest
+2023/12/14 17:15:40.460 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2023/12/14 17:15:40.548 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Starting ProductRestApiIntegrationTest using Java 17.0.8 with PID 26008 (started by USER in C:\ProjectFiles\inventory_management_app01)
+2023/12/14 17:15:40.550 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2023/12/14 17:16:46.271 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest]: ProductRestApiIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023/12/14 17:16:46.546 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.yuuki.katou.inventory_management_app01.InventoryManagementApp01Application for test class com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest
+2023/12/14 17:16:47.172 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2023/12/14 17:16:47.269 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Starting ProductRestApiIntegrationTest using Java 17.0.8 with PID 476 (started by USER in C:\ProjectFiles\inventory_management_app01)
+2023/12/14 17:16:47.271 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2023/12/14 17:16:50.448 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023/12/14 17:16:50.448 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023/12/14 17:16:50.452 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2023/12/14 17:16:50.500 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Started ProductRestApiIntegrationTest in 3.653 seconds (process running for 6.425)
+2023/12/14 17:16:50.563 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023/12/14 17:16:51.452 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2804b13f
+2023/12/14 17:16:51.457 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023/12/14 17:16:53.199 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:16:53.200 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:16:53.200 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:16:53.204 [Test worker] INFO  c.g.d.r.c.d.DataSetExecutorImpl - DBUnit configuration for dataset executor 'default':cacheConnection: false
+cacheTableNames: false
+caseInsensitiveStrategy: LOWERCASE
+columnSensing: false
+leakHunter: false
+mergeDataSets: false
+mergingStrategy: METHOD
+disableSequenceFiltering: false
+alwaysCleanBefore: false
+alwaysCleanAfter: false
+raiseExceptionOnCleanUp: false
+disablePKCheckFor: com.github.database.rider.core.configuration.DBUnitConfig@97a72a12
+schema: products_list
+tableType: [TABLE]
+allowEmptyFields: false
+fetchSize: 100
+qualifiedTableNames: false
+prologTimeout: 1000
+batchSize: 100
+batchedStatements: false
+caseSensitiveTableNames: false
+replacers: [com.github.database.rider.core.replacers.DateTimeReplacer@687f62a5, com.github.database.rider.core.replacers.UnixTimestampReplacer@7857cb1d, com.github.database.rider.core.replacers.NullReplacer@7646c9f5]
+
+2023/12/14 17:16:54.820 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:16:54.820 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:16:54.820 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:16:54.923 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023/12/14 17:16:54.962 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023/12/14 17:20:39.496 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest]: ProductRestApiIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023/12/14 17:20:39.654 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.yuuki.katou.inventory_management_app01.InventoryManagementApp01Application for test class com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest
+2023/12/14 17:20:40.176 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2023/12/14 17:20:40.286 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Starting ProductRestApiIntegrationTest using Java 17.0.8 with PID 27300 (started by USER in C:\ProjectFiles\inventory_management_app01)
+2023/12/14 17:20:40.289 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2023/12/14 17:20:43.359 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023/12/14 17:20:43.360 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023/12/14 17:20:43.362 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2023/12/14 17:20:43.415 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Started ProductRestApiIntegrationTest in 3.528 seconds (process running for 5.92)
+2023/12/14 17:20:43.475 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023/12/14 17:20:44.374 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@43b6cb1c
+2023/12/14 17:20:44.380 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023/12/14 17:20:46.477 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:20:46.477 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:20:46.477 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:20:46.483 [Test worker] INFO  c.g.d.r.c.d.DataSetExecutorImpl - DBUnit configuration for dataset executor 'default':cacheConnection: false
+cacheTableNames: false
+caseInsensitiveStrategy: LOWERCASE
+columnSensing: false
+leakHunter: false
+mergeDataSets: false
+mergingStrategy: METHOD
+disableSequenceFiltering: false
+alwaysCleanBefore: false
+alwaysCleanAfter: false
+raiseExceptionOnCleanUp: false
+disablePKCheckFor: com.github.database.rider.core.configuration.DBUnitConfig@7c5b4b42
+schema: products_list
+tableType: [TABLE]
+allowEmptyFields: false
+fetchSize: 100
+qualifiedTableNames: false
+prologTimeout: 1000
+batchSize: 100
+batchedStatements: false
+caseSensitiveTableNames: false
+replacers: [com.github.database.rider.core.replacers.DateTimeReplacer@579ce2e9, com.github.database.rider.core.replacers.UnixTimestampReplacer@1b800a11, com.github.database.rider.core.replacers.NullReplacer@3faa55]
+
+2023/12/14 17:20:48.252 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:20:48.252 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:20:48.252 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:20:48.352 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023/12/14 17:20:48.394 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023/12/14 17:21:08.487 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest]: ProductRestApiIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023/12/14 17:21:08.703 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.yuuki.katou.inventory_management_app01.InventoryManagementApp01Application for test class com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest
+2023/12/14 17:21:09.272 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2023/12/14 17:21:09.373 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Starting ProductRestApiIntegrationTest using Java 17.0.8 with PID 24844 (started by USER in C:\ProjectFiles\inventory_management_app01)
+2023/12/14 17:21:09.375 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2023/12/14 17:21:12.926 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023/12/14 17:21:12.927 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023/12/14 17:21:12.931 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2023/12/14 17:21:12.974 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Started ProductRestApiIntegrationTest in 4.011 seconds (process running for 6.901)
+2023/12/14 17:21:13.034 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023/12/14 17:21:13.824 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@273293c8
+2023/12/14 17:21:13.832 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023/12/14 17:21:15.875 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:21:15.875 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:21:15.875 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:21:15.879 [Test worker] INFO  c.g.d.r.c.d.DataSetExecutorImpl - DBUnit configuration for dataset executor 'default':cacheConnection: false
+cacheTableNames: false
+caseInsensitiveStrategy: LOWERCASE
+columnSensing: false
+leakHunter: false
+mergeDataSets: false
+mergingStrategy: METHOD
+disableSequenceFiltering: false
+alwaysCleanBefore: false
+alwaysCleanAfter: false
+raiseExceptionOnCleanUp: false
+disablePKCheckFor: com.github.database.rider.core.configuration.DBUnitConfig@312f584b
+schema: products_list
+tableType: [TABLE]
+allowEmptyFields: false
+fetchSize: 100
+qualifiedTableNames: false
+prologTimeout: 1000
+batchSize: 100
+batchedStatements: false
+caseSensitiveTableNames: false
+replacers: [com.github.database.rider.core.replacers.DateTimeReplacer@6f1163f7, com.github.database.rider.core.replacers.UnixTimestampReplacer@e4348c0, com.github.database.rider.core.replacers.NullReplacer@4ca907af]
+
+2023/12/14 17:21:17.423 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:21:17.423 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:21:17.423 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:21:17.510 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023/12/14 17:21:17.544 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023/12/14 17:23:54.208 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest]: ProductRestApiIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023/12/14 17:23:54.405 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.yuuki.katou.inventory_management_app01.InventoryManagementApp01Application for test class com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest
+2023/12/14 17:23:55.082 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2023/12/14 17:23:55.250 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Starting ProductRestApiIntegrationTest using Java 17.0.8 with PID 27608 (started by USER in C:\ProjectFiles\inventory_management_app01)
+2023/12/14 17:23:55.254 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2023/12/14 17:23:58.724 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023/12/14 17:23:58.724 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023/12/14 17:23:58.727 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2023/12/14 17:23:58.779 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Started ProductRestApiIntegrationTest in 4.058 seconds (process running for 6.758)
+2023/12/14 17:23:58.841 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023/12/14 17:23:59.732 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69069866
+2023/12/14 17:23:59.739 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023/12/14 17:24:01.952 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:24:01.953 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:24:01.953 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:24:01.957 [Test worker] INFO  c.g.d.r.c.d.DataSetExecutorImpl - DBUnit configuration for dataset executor 'default':cacheConnection: false
+cacheTableNames: false
+caseInsensitiveStrategy: LOWERCASE
+columnSensing: false
+leakHunter: false
+mergeDataSets: false
+mergingStrategy: METHOD
+disableSequenceFiltering: false
+alwaysCleanBefore: false
+alwaysCleanAfter: false
+raiseExceptionOnCleanUp: false
+disablePKCheckFor: com.github.database.rider.core.configuration.DBUnitConfig@d42765fd
+schema: products_list
+tableType: [TABLE]
+allowEmptyFields: false
+fetchSize: 100
+qualifiedTableNames: false
+prologTimeout: 1000
+batchSize: 100
+batchedStatements: false
+caseSensitiveTableNames: false
+replacers: [com.github.database.rider.core.replacers.DateTimeReplacer@7857cb1d, com.github.database.rider.core.replacers.UnixTimestampReplacer@7646c9f5, com.github.database.rider.core.replacers.NullReplacer@7b54a0a4]
+
+2023/12/14 17:24:03.593 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:24:03.593 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:24:03.593 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:24:03.650 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023/12/14 17:24:03.698 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023/12/14 17:32:59.725 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest]: ProductRestApiIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023/12/14 17:32:59.933 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.yuuki.katou.inventory_management_app01.InventoryManagementApp01Application for test class com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest
+2023/12/14 17:33:00.605 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2023/12/14 17:33:00.709 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Starting ProductRestApiIntegrationTest using Java 17.0.8 with PID 26896 (started by USER in C:\ProjectFiles\inventory_management_app01)
+2023/12/14 17:33:00.711 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2023/12/14 17:33:04.397 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023/12/14 17:33:04.397 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023/12/14 17:33:04.401 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2023/12/14 17:33:04.456 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Started ProductRestApiIntegrationTest in 4.25 seconds (process running for 7.019)
+2023/12/14 17:33:04.515 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023/12/14 17:33:05.606 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ff2266c
+2023/12/14 17:33:05.612 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023/12/14 17:33:07.452 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:33:07.452 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:33:07.452 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:33:07.454 [Test worker] INFO  c.g.d.r.c.d.DataSetExecutorImpl - DBUnit configuration for dataset executor 'default':cacheConnection: false
+cacheTableNames: false
+caseInsensitiveStrategy: LOWERCASE
+columnSensing: false
+leakHunter: false
+mergeDataSets: false
+mergingStrategy: METHOD
+disableSequenceFiltering: false
+alwaysCleanBefore: false
+alwaysCleanAfter: false
+raiseExceptionOnCleanUp: false
+disablePKCheckFor: com.github.database.rider.core.configuration.DBUnitConfig@14f22ba6
+schema: products_list
+tableType: [TABLE]
+allowEmptyFields: false
+fetchSize: 100
+qualifiedTableNames: false
+prologTimeout: 1000
+batchSize: 100
+batchedStatements: false
+caseSensitiveTableNames: false
+replacers: [com.github.database.rider.core.replacers.DateTimeReplacer@578198d9, com.github.database.rider.core.replacers.UnixTimestampReplacer@4deca78, com.github.database.rider.core.replacers.NullReplacer@5f65e0c0]
+
+2023/12/14 17:33:09.214 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:33:09.214 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:33:09.214 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:33:09.336 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023/12/14 17:33:09.382 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023/12/14 17:35:51.600 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest]: ProductRestApiIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023/12/14 17:35:51.826 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.yuuki.katou.inventory_management_app01.InventoryManagementApp01Application for test class com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest
+2023/12/14 17:35:52.444 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2023/12/14 17:35:52.555 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Starting ProductRestApiIntegrationTest using Java 17.0.8 with PID 4604 (started by USER in C:\ProjectFiles\inventory_management_app01)
+2023/12/14 17:35:52.557 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2023/12/14 17:35:56.150 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023/12/14 17:35:56.150 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023/12/14 17:35:56.154 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2023/12/14 17:35:56.224 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Started ProductRestApiIntegrationTest in 4.152 seconds (process running for 6.959)
+2023/12/14 17:35:56.292 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023/12/14 17:35:57.191 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15cee630
+2023/12/14 17:35:57.201 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023/12/14 17:35:59.130 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:35:59.130 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:35:59.130 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:35:59.136 [Test worker] INFO  c.g.d.r.c.d.DataSetExecutorImpl - DBUnit configuration for dataset executor 'default':cacheConnection: false
+cacheTableNames: false
+caseInsensitiveStrategy: LOWERCASE
+columnSensing: false
+leakHunter: false
+mergeDataSets: false
+mergingStrategy: METHOD
+disableSequenceFiltering: false
+alwaysCleanBefore: false
+alwaysCleanAfter: false
+raiseExceptionOnCleanUp: false
+disablePKCheckFor: com.github.database.rider.core.configuration.DBUnitConfig@f84a2a02
+schema: products_list
+tableType: [TABLE]
+allowEmptyFields: false
+fetchSize: 100
+qualifiedTableNames: false
+prologTimeout: 1000
+batchSize: 100
+batchedStatements: false
+caseSensitiveTableNames: false
+replacers: [com.github.database.rider.core.replacers.DateTimeReplacer@34f24a11, com.github.database.rider.core.replacers.UnixTimestampReplacer@3f6d36eb, com.github.database.rider.core.replacers.NullReplacer@3f5ac587]
+
+2023/12/14 17:36:00.742 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:36:00.742 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:36:00.742 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:36:00.809 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023/12/14 17:36:00.846 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023/12/14 17:42:12.588 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest]: ProductRestApiIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023/12/14 17:42:12.791 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.yuuki.katou.inventory_management_app01.InventoryManagementApp01Application for test class com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest
+2023/12/14 17:42:13.333 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2023/12/14 17:42:13.436 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Starting ProductRestApiIntegrationTest using Java 17.0.8 with PID 26436 (started by USER in C:\ProjectFiles\inventory_management_app01)
+2023/12/14 17:42:13.438 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2023/12/14 17:42:16.454 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023/12/14 17:42:16.454 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023/12/14 17:42:16.457 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2023/12/14 17:42:16.506 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Started ProductRestApiIntegrationTest in 3.452 seconds (process running for 5.825)
+2023/12/14 17:42:16.564 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023/12/14 17:42:17.376 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@83ebdc5
+2023/12/14 17:42:17.379 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023/12/14 17:42:19.006 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:42:19.006 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:42:19.006 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:42:19.011 [Test worker] INFO  c.g.d.r.c.d.DataSetExecutorImpl - DBUnit configuration for dataset executor 'default':cacheConnection: false
+cacheTableNames: false
+caseInsensitiveStrategy: LOWERCASE
+columnSensing: false
+leakHunter: false
+mergeDataSets: false
+mergingStrategy: METHOD
+disableSequenceFiltering: false
+alwaysCleanBefore: false
+alwaysCleanAfter: false
+raiseExceptionOnCleanUp: false
+disablePKCheckFor: com.github.database.rider.core.configuration.DBUnitConfig@5f187ead
+schema: products_list
+tableType: [TABLE]
+allowEmptyFields: false
+fetchSize: 100
+qualifiedTableNames: false
+prologTimeout: 1000
+batchSize: 100
+batchedStatements: false
+caseSensitiveTableNames: false
+replacers: [com.github.database.rider.core.replacers.DateTimeReplacer@5f65e0c0, com.github.database.rider.core.replacers.UnixTimestampReplacer@566cc6af, com.github.database.rider.core.replacers.NullReplacer@d70dbeb]
+
+2023/12/14 17:42:20.669 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:42:20.669 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:42:20.669 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:42:20.752 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023/12/14 17:42:20.785 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023/12/14 17:44:06.171 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest]: ProductRestApiIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023/12/14 17:44:06.367 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.yuuki.katou.inventory_management_app01.InventoryManagementApp01Application for test class com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest
+2023/12/14 17:44:06.933 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2023/12/14 17:44:07.064 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Starting ProductRestApiIntegrationTest using Java 17.0.8 with PID 27272 (started by USER in C:\ProjectFiles\inventory_management_app01)
+2023/12/14 17:44:07.066 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2023/12/14 17:44:11.020 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023/12/14 17:44:11.020 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023/12/14 17:44:11.023 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2023/12/14 17:44:11.073 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Started ProductRestApiIntegrationTest in 4.461 seconds (process running for 7.194)
+2023/12/14 17:44:11.150 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023/12/14 17:44:12.056 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15cee630
+2023/12/14 17:44:12.063 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023/12/14 17:44:14.027 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:44:14.028 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:44:14.028 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:44:14.033 [Test worker] INFO  c.g.d.r.c.d.DataSetExecutorImpl - DBUnit configuration for dataset executor 'default':cacheConnection: false
+cacheTableNames: false
+caseInsensitiveStrategy: LOWERCASE
+columnSensing: false
+leakHunter: false
+mergeDataSets: false
+mergingStrategy: METHOD
+disableSequenceFiltering: false
+alwaysCleanBefore: false
+alwaysCleanAfter: false
+raiseExceptionOnCleanUp: false
+disablePKCheckFor: com.github.database.rider.core.configuration.DBUnitConfig@f84a2a02
+schema: products_list
+tableType: [TABLE]
+allowEmptyFields: false
+fetchSize: 100
+qualifiedTableNames: false
+prologTimeout: 1000
+batchSize: 100
+batchedStatements: false
+caseSensitiveTableNames: false
+replacers: [com.github.database.rider.core.replacers.DateTimeReplacer@34f24a11, com.github.database.rider.core.replacers.UnixTimestampReplacer@3f6d36eb, com.github.database.rider.core.replacers.NullReplacer@3f5ac587]
+
+2023/12/14 17:44:15.690 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:44:15.690 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:44:15.690 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 17:44:15.743 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023/12/14 17:44:15.785 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023/12/14 18:00:04.714 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest]: ProductRestApiIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023/12/14 18:00:04.914 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.yuuki.katou.inventory_management_app01.InventoryManagementApp01Application for test class com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest
+2023/12/14 18:00:05.638 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2023/12/14 18:00:05.730 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Starting ProductRestApiIntegrationTest using Java 17.0.8 with PID 4232 (started by USER in C:\ProjectFiles\inventory_management_app01)
+2023/12/14 18:00:05.731 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2023/12/14 18:00:09.110 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023/12/14 18:00:09.111 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023/12/14 18:00:09.114 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2023/12/14 18:00:09.158 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Started ProductRestApiIntegrationTest in 3.921 seconds (process running for 6.829)
+2023/12/14 18:00:09.216 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023/12/14 18:00:10.052 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f9addd4
+2023/12/14 18:00:10.062 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023/12/14 18:00:11.932 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:00:11.932 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:00:11.932 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:00:11.936 [Test worker] INFO  c.g.d.r.c.d.DataSetExecutorImpl - DBUnit configuration for dataset executor 'default':cacheConnection: false
+cacheTableNames: false
+caseInsensitiveStrategy: LOWERCASE
+columnSensing: false
+leakHunter: false
+mergeDataSets: false
+mergingStrategy: METHOD
+disableSequenceFiltering: false
+alwaysCleanBefore: false
+alwaysCleanAfter: false
+raiseExceptionOnCleanUp: false
+disablePKCheckFor: com.github.database.rider.core.configuration.DBUnitConfig@2586e905
+schema: products_list
+tableType: [TABLE]
+allowEmptyFields: false
+fetchSize: 100
+qualifiedTableNames: false
+prologTimeout: 1000
+batchSize: 100
+batchedStatements: false
+caseSensitiveTableNames: false
+replacers: [com.github.database.rider.core.replacers.DateTimeReplacer@47f39279, com.github.database.rider.core.replacers.UnixTimestampReplacer@63ed5dae, com.github.database.rider.core.replacers.NullReplacer@578198d9]
+
+2023/12/14 18:00:13.762 [Test worker] ERROR o.dbunit.assertion.DbUnitAssertBase - org.dbunit.assertion.DbComparisonFailure[row count (table=products)expected:<4>but was:<3>]
+2023/12/14 18:00:13.768 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:00:13.768 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:00:13.768 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:00:13.768 [Test worker] WARN  o.s.test.context.TestContextManager - Caught exception while invoking 'afterTestMethod' callback on TestExecutionListener [com.github.database.rider.spring.DBRiderTestExecutionListener] for test method [void com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest.���i����V�K�o�^�����ۂɃX�e�[�^�X�R�[�h201��Ԃ�����() throws java.lang.Exception] and test instance [com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest@285ac40b]
+org.dbunit.assertion.DbComparisonFailure: row count (table=products) expected:<4> but was:<3>
+	at org.dbunit.assertion.DefaultFailureHandler$DefaultFailureFactory.createFailure(DefaultFailureHandler.java:323)
+	at org.dbunit.assertion.DefaultFailureHandler.createFailure(DefaultFailureHandler.java:105)
+	at org.dbunit.assertion.DbUnitAssertBase.compareRowCounts(DbUnitAssertBase.java:171)
+	at org.dbunit.assertion.DbUnitAssertBase.assertWithValueComparer(DbUnitAssertBase.java:417)
+	at org.dbunit.assertion.DbUnitAssert.assertEquals(DbUnitAssert.java:300)
+	at org.dbunit.assertion.DbUnitAssert.assertEquals(DbUnitAssert.java:268)
+	at org.dbunit.assertion.DbUnitAssert.assertEquals(DbUnitAssert.java:227)
+	at org.dbunit.assertion.DbUnitAssert.assertEqualsIgnoreCols(DbUnitAssert.java:103)
+	at com.github.database.rider.core.assertion.DataSetAssertion.assertEqualsIgnoreCols(DataSetAssertion.java:17)
+	at com.github.database.rider.core.dataset.DataSetExecutorImpl.compareClassic(DataSetExecutorImpl.java:875)
+	at com.github.database.rider.core.dataset.DataSetExecutorImpl.compareCurrentDataSetWith(DataSetExecutorImpl.java:833)
+	at com.github.database.rider.core.RiderRunner.performDataSetComparison(RiderRunner.java:144)
+	at com.github.database.rider.core.RiderRunner.runAfterTest(RiderRunner.java:63)
+	at com.github.database.rider.spring.DBRiderTestExecutionListener.afterTestMethod(DBRiderTestExecutionListener.java:32)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:440)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.afterEach(SpringExtension.java:206)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAfterEachCallbacks$12(TestMethodTestDescriptor.java:260)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$13(TestMethodTestDescriptor.java:276)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$14(TestMethodTestDescriptor.java:276)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAllAfterMethodsOrCallbacks(TestMethodTestDescriptor.java:275)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAfterEachCallbacks(TestMethodTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:144)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:119)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:89)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+2023/12/14 18:00:13.895 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023/12/14 18:00:13.944 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023/12/14 18:02:39.895 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest]: ProductRestApiIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023/12/14 18:02:40.137 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.yuuki.katou.inventory_management_app01.InventoryManagementApp01Application for test class com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest
+2023/12/14 18:02:40.706 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2023/12/14 18:02:40.957 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Starting ProductRestApiIntegrationTest using Java 17.0.8 with PID 25048 (started by USER in C:\ProjectFiles\inventory_management_app01)
+2023/12/14 18:02:40.959 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2023/12/14 18:02:44.132 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023/12/14 18:02:44.132 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023/12/14 18:02:44.136 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2023/12/14 18:02:44.179 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Started ProductRestApiIntegrationTest in 3.787 seconds (process running for 6.394)
+2023/12/14 18:02:44.238 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023/12/14 18:02:45.030 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@14dbfdb1
+2023/12/14 18:02:45.035 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023/12/14 18:02:47.003 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:02:47.004 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:02:47.004 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:02:47.009 [Test worker] INFO  c.g.d.r.c.d.DataSetExecutorImpl - DBUnit configuration for dataset executor 'default':cacheConnection: false
+cacheTableNames: false
+caseInsensitiveStrategy: LOWERCASE
+columnSensing: false
+leakHunter: false
+mergeDataSets: false
+mergingStrategy: METHOD
+disableSequenceFiltering: false
+alwaysCleanBefore: false
+alwaysCleanAfter: false
+raiseExceptionOnCleanUp: false
+disablePKCheckFor: com.github.database.rider.core.configuration.DBUnitConfig@814d74f
+schema: products_list
+tableType: [TABLE]
+allowEmptyFields: false
+fetchSize: 100
+qualifiedTableNames: false
+prologTimeout: 1000
+batchSize: 100
+batchedStatements: false
+caseSensitiveTableNames: false
+replacers: [com.github.database.rider.core.replacers.DateTimeReplacer@d70dbeb, com.github.database.rider.core.replacers.UnixTimestampReplacer@7f8f5d37, com.github.database.rider.core.replacers.NullReplacer@f9cd1e6]
+
+2023/12/14 18:02:48.894 [Test worker] ERROR o.dbunit.assertion.DbUnitAssertBase - org.dbunit.assertion.DbComparisonFailure[row count (table=products)expected:<4>but was:<3>]
+2023/12/14 18:02:48.899 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:02:48.900 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:02:48.900 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:02:48.900 [Test worker] WARN  o.s.test.context.TestContextManager - Caught exception while invoking 'afterTestMethod' callback on TestExecutionListener [com.github.database.rider.spring.DBRiderTestExecutionListener] for test method [void com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest.���i����V�K�o�^�����ۂɃX�e�[�^�X�R�[�h201��Ԃ�����() throws java.lang.Exception] and test instance [com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest@1bb78ae]
+org.dbunit.assertion.DbComparisonFailure: row count (table=products) expected:<4> but was:<3>
+	at org.dbunit.assertion.DefaultFailureHandler$DefaultFailureFactory.createFailure(DefaultFailureHandler.java:323)
+	at org.dbunit.assertion.DefaultFailureHandler.createFailure(DefaultFailureHandler.java:105)
+	at org.dbunit.assertion.DbUnitAssertBase.compareRowCounts(DbUnitAssertBase.java:171)
+	at org.dbunit.assertion.DbUnitAssertBase.assertWithValueComparer(DbUnitAssertBase.java:417)
+	at org.dbunit.assertion.DbUnitAssert.assertEquals(DbUnitAssert.java:300)
+	at org.dbunit.assertion.DbUnitAssert.assertEquals(DbUnitAssert.java:268)
+	at org.dbunit.assertion.DbUnitAssert.assertEquals(DbUnitAssert.java:227)
+	at org.dbunit.assertion.DbUnitAssert.assertEqualsIgnoreCols(DbUnitAssert.java:103)
+	at com.github.database.rider.core.assertion.DataSetAssertion.assertEqualsIgnoreCols(DataSetAssertion.java:17)
+	at com.github.database.rider.core.dataset.DataSetExecutorImpl.compareClassic(DataSetExecutorImpl.java:875)
+	at com.github.database.rider.core.dataset.DataSetExecutorImpl.compareCurrentDataSetWith(DataSetExecutorImpl.java:833)
+	at com.github.database.rider.core.RiderRunner.performDataSetComparison(RiderRunner.java:144)
+	at com.github.database.rider.core.RiderRunner.runAfterTest(RiderRunner.java:63)
+	at com.github.database.rider.spring.DBRiderTestExecutionListener.afterTestMethod(DBRiderTestExecutionListener.java:32)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:440)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.afterEach(SpringExtension.java:206)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAfterEachCallbacks$12(TestMethodTestDescriptor.java:260)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$13(TestMethodTestDescriptor.java:276)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$14(TestMethodTestDescriptor.java:276)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAllAfterMethodsOrCallbacks(TestMethodTestDescriptor.java:275)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAfterEachCallbacks(TestMethodTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:144)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:119)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:89)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+2023/12/14 18:02:49.040 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023/12/14 18:02:49.069 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023/12/14 18:03:18.298 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2023/12/14 18:03:18.422 [main] INFO  c.y.k.i.InventoryManagementApp01Application - Starting InventoryManagementApp01Application using Java 17.0.8 with PID 26488 (C:\ProjectFiles\inventory_management_app01\build\classes\java\main started by USER in C:\ProjectFiles\inventory_management_app01)
+2023/12/14 18:03:18.424 [main] INFO  c.y.k.i.InventoryManagementApp01Application - No active profile set, falling back to 1 default profile: "default"
+2023/12/14 18:03:20.718 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023/12/14 18:03:20.730 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023/12/14 18:03:20.735 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023/12/14 18:03:20.735 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023/12/14 18:03:20.991 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023/12/14 18:03:20.995 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2467 ms
+2023/12/14 18:03:22.365 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023/12/14 18:03:22.434 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023/12/14 18:03:22.450 [main] INFO  c.y.k.i.InventoryManagementApp01Application - Started InventoryManagementApp01Application in 4.674 seconds (process running for 5.845)
+2023/12/14 18:03:23.347 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023/12/14 18:03:23.348 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023/12/14 18:03:23.351 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2023/12/14 18:03:23.901 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023/12/14 18:03:24.854 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1089e5e4
+2023/12/14 18:03:24.859 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023/12/14 18:04:41.986 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest]: ProductRestApiIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023/12/14 18:04:42.182 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.yuuki.katou.inventory_management_app01.InventoryManagementApp01Application for test class com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest
+2023/12/14 18:04:42.780 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2023/12/14 18:04:42.869 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Starting ProductRestApiIntegrationTest using Java 17.0.8 with PID 25036 (started by USER in C:\ProjectFiles\inventory_management_app01)
+2023/12/14 18:04:42.870 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2023/12/14 18:04:46.061 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023/12/14 18:04:46.062 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023/12/14 18:04:46.065 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2023/12/14 18:04:46.128 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Started ProductRestApiIntegrationTest in 3.642 seconds (process running for 6.56)
+2023/12/14 18:04:46.192 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023/12/14 18:04:47.220 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a047bdb
+2023/12/14 18:04:47.225 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023/12/14 18:04:49.188 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:04:49.188 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:04:49.188 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:04:49.191 [Test worker] INFO  c.g.d.r.c.d.DataSetExecutorImpl - DBUnit configuration for dataset executor 'default':cacheConnection: false
+cacheTableNames: false
+caseInsensitiveStrategy: LOWERCASE
+columnSensing: false
+leakHunter: false
+mergeDataSets: false
+mergingStrategy: METHOD
+disableSequenceFiltering: false
+alwaysCleanBefore: false
+alwaysCleanAfter: false
+raiseExceptionOnCleanUp: false
+disablePKCheckFor: com.github.database.rider.core.configuration.DBUnitConfig@aa59908c
+schema: products_list
+tableType: [TABLE]
+allowEmptyFields: false
+fetchSize: 100
+qualifiedTableNames: false
+prologTimeout: 1000
+batchSize: 100
+batchedStatements: false
+caseSensitiveTableNames: false
+replacers: [com.github.database.rider.core.replacers.DateTimeReplacer@566cc6af, com.github.database.rider.core.replacers.UnixTimestampReplacer@d70dbeb, com.github.database.rider.core.replacers.NullReplacer@7f8f5d37]
+
+2023/12/14 18:04:50.966 [Test worker] ERROR o.dbunit.assertion.DbUnitAssertBase - org.dbunit.assertion.DbComparisonFailure[row count (table=products)expected:<4>but was:<3>]
+2023/12/14 18:04:50.971 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:04:50.971 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:04:50.971 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:04:50.972 [Test worker] WARN  o.s.test.context.TestContextManager - Caught exception while invoking 'afterTestMethod' callback on TestExecutionListener [com.github.database.rider.spring.DBRiderTestExecutionListener] for test method [void com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest.���i����V�K�o�^�����ۂɃX�e�[�^�X�R�[�h201��Ԃ�����() throws java.lang.Exception] and test instance [com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest@1f6ba47b]
+org.dbunit.assertion.DbComparisonFailure: row count (table=products) expected:<4> but was:<3>
+	at org.dbunit.assertion.DefaultFailureHandler$DefaultFailureFactory.createFailure(DefaultFailureHandler.java:323)
+	at org.dbunit.assertion.DefaultFailureHandler.createFailure(DefaultFailureHandler.java:105)
+	at org.dbunit.assertion.DbUnitAssertBase.compareRowCounts(DbUnitAssertBase.java:171)
+	at org.dbunit.assertion.DbUnitAssertBase.assertWithValueComparer(DbUnitAssertBase.java:417)
+	at org.dbunit.assertion.DbUnitAssert.assertEquals(DbUnitAssert.java:300)
+	at org.dbunit.assertion.DbUnitAssert.assertEquals(DbUnitAssert.java:268)
+	at org.dbunit.assertion.DbUnitAssert.assertEquals(DbUnitAssert.java:227)
+	at org.dbunit.assertion.DbUnitAssert.assertEqualsIgnoreCols(DbUnitAssert.java:103)
+	at com.github.database.rider.core.assertion.DataSetAssertion.assertEqualsIgnoreCols(DataSetAssertion.java:17)
+	at com.github.database.rider.core.dataset.DataSetExecutorImpl.compareClassic(DataSetExecutorImpl.java:875)
+	at com.github.database.rider.core.dataset.DataSetExecutorImpl.compareCurrentDataSetWith(DataSetExecutorImpl.java:833)
+	at com.github.database.rider.core.RiderRunner.performDataSetComparison(RiderRunner.java:144)
+	at com.github.database.rider.core.RiderRunner.runAfterTest(RiderRunner.java:63)
+	at com.github.database.rider.spring.DBRiderTestExecutionListener.afterTestMethod(DBRiderTestExecutionListener.java:32)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:440)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.afterEach(SpringExtension.java:206)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAfterEachCallbacks$12(TestMethodTestDescriptor.java:260)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$13(TestMethodTestDescriptor.java:276)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$14(TestMethodTestDescriptor.java:276)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAllAfterMethodsOrCallbacks(TestMethodTestDescriptor.java:275)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAfterEachCallbacks(TestMethodTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:144)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:119)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:89)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+2023/12/14 18:04:51.172 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023/12/14 18:04:51.215 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023/12/14 18:07:47.109 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest]: ProductRestApiIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023/12/14 18:07:47.327 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.yuuki.katou.inventory_management_app01.InventoryManagementApp01Application for test class com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest
+2023/12/14 18:07:47.971 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2023/12/14 18:07:48.059 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Starting ProductRestApiIntegrationTest using Java 17.0.8 with PID 10748 (started by USER in C:\ProjectFiles\inventory_management_app01)
+2023/12/14 18:07:48.061 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2023/12/14 18:07:51.367 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023/12/14 18:07:51.368 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023/12/14 18:07:51.374 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 4 ms
+2023/12/14 18:07:51.430 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Started ProductRestApiIntegrationTest in 3.802 seconds (process running for 6.683)
+2023/12/14 18:07:51.491 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023/12/14 18:07:52.300 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e40fdbd
+2023/12/14 18:07:52.303 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023/12/14 18:07:53.980 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:07:53.980 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:07:53.980 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:07:53.983 [Test worker] INFO  c.g.d.r.c.d.DataSetExecutorImpl - DBUnit configuration for dataset executor 'default':cacheConnection: false
+cacheTableNames: false
+caseInsensitiveStrategy: LOWERCASE
+columnSensing: false
+leakHunter: false
+mergeDataSets: false
+mergingStrategy: METHOD
+disableSequenceFiltering: false
+alwaysCleanBefore: false
+alwaysCleanAfter: false
+raiseExceptionOnCleanUp: false
+disablePKCheckFor: com.github.database.rider.core.configuration.DBUnitConfig@d3c7429d
+schema: products_list
+tableType: [TABLE]
+allowEmptyFields: false
+fetchSize: 100
+qualifiedTableNames: false
+prologTimeout: 1000
+batchSize: 100
+batchedStatements: false
+caseSensitiveTableNames: false
+replacers: [com.github.database.rider.core.replacers.DateTimeReplacer@3f6d36eb, com.github.database.rider.core.replacers.UnixTimestampReplacer@3f5ac587, com.github.database.rider.core.replacers.NullReplacer@1fa58a48]
+
+2023/12/14 18:07:56.020 [Test worker] ERROR o.dbunit.assertion.DbUnitAssertBase - org.dbunit.assertion.DbComparisonFailure[row count (table=products)expected:<4>but was:<3>]
+2023/12/14 18:07:56.027 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:07:56.028 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:07:56.029 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:07:56.029 [Test worker] WARN  o.s.test.context.TestContextManager - Caught exception while invoking 'afterTestMethod' callback on TestExecutionListener [com.github.database.rider.spring.DBRiderTestExecutionListener] for test method [void com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest.���i����V�K�o�^�����ۂɃX�e�[�^�X�R�[�h201��Ԃ�����() throws java.lang.Exception] and test instance [com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest@24482a4f]
+org.dbunit.assertion.DbComparisonFailure: row count (table=products) expected:<4> but was:<3>
+	at org.dbunit.assertion.DefaultFailureHandler$DefaultFailureFactory.createFailure(DefaultFailureHandler.java:323)
+	at org.dbunit.assertion.DefaultFailureHandler.createFailure(DefaultFailureHandler.java:105)
+	at org.dbunit.assertion.DbUnitAssertBase.compareRowCounts(DbUnitAssertBase.java:171)
+	at org.dbunit.assertion.DbUnitAssertBase.assertWithValueComparer(DbUnitAssertBase.java:417)
+	at org.dbunit.assertion.DbUnitAssert.assertEquals(DbUnitAssert.java:300)
+	at org.dbunit.assertion.DbUnitAssert.assertEquals(DbUnitAssert.java:268)
+	at org.dbunit.assertion.DbUnitAssert.assertEquals(DbUnitAssert.java:227)
+	at org.dbunit.assertion.DbUnitAssert.assertEqualsIgnoreCols(DbUnitAssert.java:103)
+	at com.github.database.rider.core.assertion.DataSetAssertion.assertEqualsIgnoreCols(DataSetAssertion.java:17)
+	at com.github.database.rider.core.dataset.DataSetExecutorImpl.compareClassic(DataSetExecutorImpl.java:875)
+	at com.github.database.rider.core.dataset.DataSetExecutorImpl.compareCurrentDataSetWith(DataSetExecutorImpl.java:833)
+	at com.github.database.rider.core.RiderRunner.performDataSetComparison(RiderRunner.java:144)
+	at com.github.database.rider.core.RiderRunner.runAfterTest(RiderRunner.java:63)
+	at com.github.database.rider.spring.DBRiderTestExecutionListener.afterTestMethod(DBRiderTestExecutionListener.java:32)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:440)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.afterEach(SpringExtension.java:206)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAfterEachCallbacks$12(TestMethodTestDescriptor.java:260)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$13(TestMethodTestDescriptor.java:276)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$14(TestMethodTestDescriptor.java:276)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAllAfterMethodsOrCallbacks(TestMethodTestDescriptor.java:275)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAfterEachCallbacks(TestMethodTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:144)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:119)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:89)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+2023/12/14 18:07:56.204 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023/12/14 18:07:56.239 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023/12/14 18:09:51.549 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest]: ProductRestApiIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023/12/14 18:09:51.741 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.yuuki.katou.inventory_management_app01.InventoryManagementApp01Application for test class com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest
+2023/12/14 18:09:52.310 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2023/12/14 18:09:52.408 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Starting ProductRestApiIntegrationTest using Java 17.0.8 with PID 24528 (started by USER in C:\ProjectFiles\inventory_management_app01)
+2023/12/14 18:09:52.410 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2023/12/14 18:09:55.443 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023/12/14 18:09:55.444 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023/12/14 18:09:55.449 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2023/12/14 18:09:55.510 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Started ProductRestApiIntegrationTest in 3.535 seconds (process running for 6.203)
+2023/12/14 18:09:55.571 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023/12/14 18:09:56.378 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2335aef2
+2023/12/14 18:09:56.387 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023/12/14 18:09:58.173 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:09:58.173 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:09:58.174 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:09:58.178 [Test worker] INFO  c.g.d.r.c.d.DataSetExecutorImpl - DBUnit configuration for dataset executor 'default':cacheConnection: false
+cacheTableNames: false
+caseInsensitiveStrategy: LOWERCASE
+columnSensing: false
+leakHunter: false
+mergeDataSets: false
+mergingStrategy: METHOD
+disableSequenceFiltering: false
+alwaysCleanBefore: false
+alwaysCleanAfter: false
+raiseExceptionOnCleanUp: false
+disablePKCheckFor: com.github.database.rider.core.configuration.DBUnitConfig@f9934bd5
+schema: products_list
+tableType: [TABLE]
+allowEmptyFields: false
+fetchSize: 100
+qualifiedTableNames: false
+prologTimeout: 1000
+batchSize: 100
+batchedStatements: false
+caseSensitiveTableNames: false
+replacers: [com.github.database.rider.core.replacers.DateTimeReplacer@35f6f105, com.github.database.rider.core.replacers.UnixTimestampReplacer@3aa1c45, com.github.database.rider.core.replacers.NullReplacer@6d45dd4]
+
+2023/12/14 18:09:59.992 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:09:59.992 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:09:59.992 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:09:59.994 [Test worker] WARN  o.s.test.context.TestContextManager - Caught exception while invoking 'afterTestMethod' callback on TestExecutionListener [com.github.database.rider.spring.DBRiderTestExecutionListener] for test method [void com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest.���i����V�K�o�^�����ۂɃX�e�[�^�X�R�[�h201��Ԃ�����() throws java.lang.Exception] and test instance [com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest@4c05f83b]
+org.dbunit.assertion.DbComparisonFailure: value (table=products, row=3, col=date_added) expected:<2023-04-01 00:00:00> but was:<2023-12-14 18:09:59.0>
+	at org.dbunit.assertion.DefaultFailureHandler$DefaultFailureFactory.createFailure(DefaultFailureHandler.java:323)
+	at org.dbunit.assertion.DefaultFailureHandler.createFailure(DefaultFailureHandler.java:105)
+	at org.dbunit.assertion.DefaultFailureHandler.handle(DefaultFailureHandler.java:240)
+	at com.github.database.rider.core.assertion.DataSetAssert.compareData(DataSetAssert.java:128)
+	at com.github.database.rider.core.assertion.DataSetAssert.compareData(DataSetAssert.java:142)
+	at org.dbunit.assertion.DbUnitAssertBase.compareData(DbUnitAssertBase.java:561)
+	at org.dbunit.assertion.DbUnitAssertBase.assertWithValueComparer(DbUnitAssertBase.java:439)
+	at org.dbunit.assertion.DbUnitAssert.assertEquals(DbUnitAssert.java:300)
+	at org.dbunit.assertion.DbUnitAssert.assertEquals(DbUnitAssert.java:268)
+	at org.dbunit.assertion.DbUnitAssert.assertEquals(DbUnitAssert.java:227)
+	at org.dbunit.assertion.DbUnitAssert.assertEqualsIgnoreCols(DbUnitAssert.java:103)
+	at com.github.database.rider.core.assertion.DataSetAssertion.assertEqualsIgnoreCols(DataSetAssertion.java:17)
+	at com.github.database.rider.core.dataset.DataSetExecutorImpl.compareClassic(DataSetExecutorImpl.java:875)
+	at com.github.database.rider.core.dataset.DataSetExecutorImpl.compareCurrentDataSetWith(DataSetExecutorImpl.java:833)
+	at com.github.database.rider.core.RiderRunner.performDataSetComparison(RiderRunner.java:144)
+	at com.github.database.rider.core.RiderRunner.runAfterTest(RiderRunner.java:63)
+	at com.github.database.rider.spring.DBRiderTestExecutionListener.afterTestMethod(DBRiderTestExecutionListener.java:32)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:440)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.afterEach(SpringExtension.java:206)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAfterEachCallbacks$12(TestMethodTestDescriptor.java:260)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$13(TestMethodTestDescriptor.java:276)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$14(TestMethodTestDescriptor.java:276)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAllAfterMethodsOrCallbacks(TestMethodTestDescriptor.java:275)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAfterEachCallbacks(TestMethodTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:144)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:119)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:89)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+2023/12/14 18:10:00.097 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023/12/14 18:10:00.161 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023/12/14 18:10:47.545 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest]: ProductRestApiIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023/12/14 18:10:47.744 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.yuuki.katou.inventory_management_app01.InventoryManagementApp01Application for test class com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest
+2023/12/14 18:10:48.289 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2023/12/14 18:10:48.382 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Starting ProductRestApiIntegrationTest using Java 17.0.8 with PID 24588 (started by USER in C:\ProjectFiles\inventory_management_app01)
+2023/12/14 18:10:48.385 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2023/12/14 18:10:51.583 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023/12/14 18:10:51.584 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023/12/14 18:10:51.591 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2023/12/14 18:10:51.644 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Started ProductRestApiIntegrationTest in 3.655 seconds (process running for 6.121)
+2023/12/14 18:10:51.699 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023/12/14 18:10:52.556 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69069866
+2023/12/14 18:10:52.562 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023/12/14 18:10:54.408 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:10:54.410 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:10:54.410 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:10:54.414 [Test worker] INFO  c.g.d.r.c.d.DataSetExecutorImpl - DBUnit configuration for dataset executor 'default':cacheConnection: false
+cacheTableNames: false
+caseInsensitiveStrategy: LOWERCASE
+columnSensing: false
+leakHunter: false
+mergeDataSets: false
+mergingStrategy: METHOD
+disableSequenceFiltering: false
+alwaysCleanBefore: false
+alwaysCleanAfter: false
+raiseExceptionOnCleanUp: false
+disablePKCheckFor: com.github.database.rider.core.configuration.DBUnitConfig@d42765fd
+schema: products_list
+tableType: [TABLE]
+allowEmptyFields: false
+fetchSize: 100
+qualifiedTableNames: false
+prologTimeout: 1000
+batchSize: 100
+batchedStatements: false
+caseSensitiveTableNames: false
+replacers: [com.github.database.rider.core.replacers.DateTimeReplacer@7857cb1d, com.github.database.rider.core.replacers.UnixTimestampReplacer@7646c9f5, com.github.database.rider.core.replacers.NullReplacer@7b54a0a4]
+
+2023/12/14 18:10:56.319 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:10:56.319 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:10:56.320 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:10:56.320 [Test worker] WARN  o.s.test.context.TestContextManager - Caught exception while invoking 'afterTestMethod' callback on TestExecutionListener [com.github.database.rider.spring.DBRiderTestExecutionListener] for test method [void com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest.���i����V�K�o�^�����ۂɃX�e�[�^�X�R�[�h201��Ԃ�����() throws java.lang.Exception] and test instance [com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest@659ac28c]
+org.dbunit.assertion.DbComparisonFailure: value (table=products, row=3, col=date_added) expected:<2023-04-01 00:00:00> but was:<2023-12-14 18:10:56.0>
+	at org.dbunit.assertion.DefaultFailureHandler$DefaultFailureFactory.createFailure(DefaultFailureHandler.java:323)
+	at org.dbunit.assertion.DefaultFailureHandler.createFailure(DefaultFailureHandler.java:105)
+	at org.dbunit.assertion.DefaultFailureHandler.handle(DefaultFailureHandler.java:240)
+	at com.github.database.rider.core.assertion.DataSetAssert.compareData(DataSetAssert.java:128)
+	at com.github.database.rider.core.assertion.DataSetAssert.compareData(DataSetAssert.java:142)
+	at org.dbunit.assertion.DbUnitAssertBase.compareData(DbUnitAssertBase.java:561)
+	at org.dbunit.assertion.DbUnitAssertBase.assertWithValueComparer(DbUnitAssertBase.java:439)
+	at org.dbunit.assertion.DbUnitAssert.assertEquals(DbUnitAssert.java:300)
+	at org.dbunit.assertion.DbUnitAssert.assertEquals(DbUnitAssert.java:268)
+	at org.dbunit.assertion.DbUnitAssert.assertEquals(DbUnitAssert.java:227)
+	at org.dbunit.assertion.DbUnitAssert.assertEqualsIgnoreCols(DbUnitAssert.java:103)
+	at com.github.database.rider.core.assertion.DataSetAssertion.assertEqualsIgnoreCols(DataSetAssertion.java:17)
+	at com.github.database.rider.core.dataset.DataSetExecutorImpl.compareClassic(DataSetExecutorImpl.java:875)
+	at com.github.database.rider.core.dataset.DataSetExecutorImpl.compareCurrentDataSetWith(DataSetExecutorImpl.java:833)
+	at com.github.database.rider.core.RiderRunner.performDataSetComparison(RiderRunner.java:144)
+	at com.github.database.rider.core.RiderRunner.runAfterTest(RiderRunner.java:63)
+	at com.github.database.rider.spring.DBRiderTestExecutionListener.afterTestMethod(DBRiderTestExecutionListener.java:32)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:440)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.afterEach(SpringExtension.java:206)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAfterEachCallbacks$12(TestMethodTestDescriptor.java:260)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$13(TestMethodTestDescriptor.java:276)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$14(TestMethodTestDescriptor.java:276)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAllAfterMethodsOrCallbacks(TestMethodTestDescriptor.java:275)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAfterEachCallbacks(TestMethodTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:144)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:119)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:94)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:89)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+2023/12/14 18:10:56.392 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023/12/14 18:10:56.423 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023/12/14 18:11:44.664 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest]: ProductRestApiIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023/12/14 18:11:44.854 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.yuuki.katou.inventory_management_app01.InventoryManagementApp01Application for test class com.yuuki.katou.inventory_management_app01.integrationtest.ProductRestAppIntegrationTest
+2023/12/14 18:11:45.391 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2023/12/14 18:11:45.473 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Starting ProductRestApiIntegrationTest using Java 17.0.8 with PID 22856 (started by USER in C:\ProjectFiles\inventory_management_app01)
+2023/12/14 18:11:45.476 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+2023/12/14 18:11:48.568 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023/12/14 18:11:48.569 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023/12/14 18:11:48.573 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2023/12/14 18:11:48.620 [Test worker] INFO  c.y.k.i.i.ProductRestApiIntegrationTest - Started ProductRestApiIntegrationTest in 3.551 seconds (process running for 5.974)
+2023/12/14 18:11:48.680 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023/12/14 18:11:49.438 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@376498da
+2023/12/14 18:11:49.442 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023/12/14 18:11:51.136 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:11:51.136 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:11:51.136 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:11:51.142 [Test worker] INFO  c.g.d.r.c.d.DataSetExecutorImpl - DBUnit configuration for dataset executor 'default':cacheConnection: false
+cacheTableNames: false
+caseInsensitiveStrategy: LOWERCASE
+columnSensing: false
+leakHunter: false
+mergeDataSets: false
+mergingStrategy: METHOD
+disableSequenceFiltering: false
+alwaysCleanBefore: false
+alwaysCleanAfter: false
+raiseExceptionOnCleanUp: false
+disablePKCheckFor: com.github.database.rider.core.configuration.DBUnitConfig@464835e0
+schema: products_list
+tableType: [TABLE]
+allowEmptyFields: false
+fetchSize: 100
+qualifiedTableNames: false
+prologTimeout: 1000
+batchSize: 100
+batchedStatements: false
+caseSensitiveTableNames: false
+replacers: [com.github.database.rider.core.replacers.DateTimeReplacer@1614499b, com.github.database.rider.core.replacers.UnixTimestampReplacer@1468fc85, com.github.database.rider.core.replacers.NullReplacer@47f39279]
+
+2023/12/14 18:11:52.958 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'schema' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:11:52.959 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'prologTimeout' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:11:52.959 [Test worker] INFO  org.dbunit.database.DatabaseConfig - The property ending with 'replacers' was not found. Please notify a dbunit developer to add the property to the class org.dbunit.database.DatabaseConfig
+2023/12/14 18:11:53.020 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023/12/14 18:11:53.052 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

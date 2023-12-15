@@ -1,0 +1,7 @@
+conditions:
+  - condition_id: 1
+    condition_name: "新品"
+  - condition_id: 2
+    condition_name: "中古良好"
+  - condition_id: 3
+    condition_name: "中古可"

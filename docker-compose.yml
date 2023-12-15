@@ -1,0 +1,21 @@
+version: '3.8'  # Docker Composeファイルのバージョンを指定
+
+services:
+  db:
+    build: .  # このディレクトリにあるDockerfileを使用してイメージをビルド
+    container_name: docker-mysql-inventory_management  # コンテナの名前を設定
+    platform: linux/x86_64  # コンテナのプラットフォーム（OSとアーキテクチャ）を指定
+    command: --default-authentication-plugin=mysql_native_password  # MySQLの認証プラグインを指定
+    restart: always  # コンテナが停止した場合は常に再起動するように設定
+    environment: # 環境変数の設定
+      MYSQL_ROOT_PASSWORD: password  # MySQLのrootユーザーのパスワード
+      MYSQL_DATABASE: products_list  # 初期化時に作成するデータベース
+      MYSQL_USER: user  # 新規ユーザーの名前
+      MYSQL_PASSWORD: password  # 新規ユーザーのパスワード
+    ports:
+      - 3307:3306  # ホストの3307ポートをコンテナの3306ポートにマッピング
+    volumes:
+      - ./sql:/docker-entrypoint-initdb.d  # 初期化スクリプトをコンテナにマウント
+      - my-vol:/var/lib/mysql  # 永続ボリュームをMySQLのデータディレクトリにマウント
+volumes:
+  my-vol:  # 永続ボリュームの定義

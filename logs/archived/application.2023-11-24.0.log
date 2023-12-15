@@ -1,0 +1,121 @@
+2023/11/24 08:05:48.776 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2023/11/24 08:05:48.842 [main] INFO  c.y.k.i.InventoryManagementApp01Application - Starting InventoryManagementApp01Application using Java 17.0.8 with PID 19900 (C:\ProjectFiles\inventory_management_app01\build\classes\java\main started by USER in C:\ProjectFiles\inventory_management_app01)
+2023/11/24 08:05:48.844 [main] INFO  c.y.k.i.InventoryManagementApp01Application - No active profile set, falling back to 1 default profile: "default"
+2023/11/24 08:05:50.478 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023/11/24 08:05:50.487 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023/11/24 08:05:50.490 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023/11/24 08:05:50.490 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023/11/24 08:05:50.643 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023/11/24 08:05:50.644 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1737 ms
+2023/11/24 08:05:51.459 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023/11/24 08:05:51.495 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023/11/24 08:05:51.512 [main] INFO  c.y.k.i.InventoryManagementApp01Application - Started InventoryManagementApp01Application in 3.09 seconds (process running for 3.752)
+2023/11/24 08:05:56.029 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023/11/24 08:05:56.029 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023/11/24 08:05:56.031 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023/11/24 08:05:56.115 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023/11/24 08:05:56.702 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@455cc660
+2023/11/24 08:05:56.705 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023/11/24 12:22:13.623 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h21m46s45ms571É s200ns).
+2023/11/24 16:32:08.960 [http-nio-8080-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.math.BigDecimal'; Character F is neither a decimal digit number, decimal point, nor "e" notation exponential mark.]
+2023/11/24 16:57:30.019 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2023/11/24 16:57:30.086 [main] INFO  c.y.k.i.InventoryManagementApp01Application - Starting InventoryManagementApp01Application using Java 17.0.8 with PID 29896 (C:\ProjectFiles\inventory_management_app01\build\classes\java\main started by USER in C:\ProjectFiles\inventory_management_app01)
+2023/11/24 16:57:30.087 [main] INFO  c.y.k.i.InventoryManagementApp01Application - No active profile set, falling back to 1 default profile: "default"
+2023/11/24 16:57:31.585 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023/11/24 16:57:31.594 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023/11/24 16:57:31.596 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023/11/24 16:57:31.597 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023/11/24 16:57:31.773 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023/11/24 16:57:31.775 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1633 ms
+2023/11/24 16:57:32.471 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023/11/24 16:57:32.520 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023/11/24 16:57:32.531 [main] INFO  c.y.k.i.InventoryManagementApp01Application - Started InventoryManagementApp01Application in 2.843 seconds (process running for 3.529)
+2023/11/24 16:58:04.782 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023/11/24 16:58:04.782 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023/11/24 16:58:04.790 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2023/11/24 16:58:04.960 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023/11/24 16:58:05.926 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@b3205e6
+2023/11/24 16:58:05.933 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023/11/24 18:02:50.669 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2023/11/24 18:02:50.831 [main] INFO  c.y.k.i.InventoryManagementApp01Application - Starting InventoryManagementApp01Application using Java 17.0.8 with PID 19360 (C:\ProjectFiles\inventory_management_app01\build\classes\java\main started by USER in C:\ProjectFiles\inventory_management_app01)
+2023/11/24 18:02:50.836 [main] INFO  c.y.k.i.InventoryManagementApp01Application - No active profile set, falling back to 1 default profile: "default"
+2023/11/24 18:02:55.108 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023/11/24 18:02:55.124 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023/11/24 18:02:55.124 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023/11/24 18:02:55.124 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023/11/24 18:02:55.456 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023/11/24 18:02:55.464 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4456 ms
+2023/11/24 18:02:57.463 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023/11/24 18:02:57.722 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023/11/24 18:02:57.873 [main] INFO  c.y.k.i.InventoryManagementApp01Application - Started InventoryManagementApp01Application in 8.055 seconds (process running for 9.569)
+2023/11/24 18:03:41.587 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023/11/24 18:03:41.587 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023/11/24 18:03:41.598 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2023/11/24 18:03:41.838 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023/11/24 18:03:43.801 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@502060c1
+2023/11/24 18:03:43.811 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023/11/24 18:19:03.879 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2023/11/24 18:19:04.025 [main] INFO  c.y.k.i.InventoryManagementApp01Application - Starting InventoryManagementApp01Application using Java 17.0.8 with PID 9892 (C:\ProjectFiles\inventory_management_app01\build\classes\java\main started by USER in C:\ProjectFiles\inventory_management_app01)
+2023/11/24 18:19:04.028 [main] INFO  c.y.k.i.InventoryManagementApp01Application - No active profile set, falling back to 1 default profile: "default"
+2023/11/24 18:19:06.928 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023/11/24 18:19:06.950 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023/11/24 18:19:06.956 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023/11/24 18:19:06.957 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023/11/24 18:19:07.233 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023/11/24 18:19:07.237 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2964 ms
+2023/11/24 18:19:09.298 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023/11/24 18:19:09.479 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023/11/24 18:19:09.534 [main] INFO  c.y.k.i.InventoryManagementApp01Application - Started InventoryManagementApp01Application in 6.441 seconds (process running for 8.368)
+2023/11/24 18:19:19.630 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023/11/24 18:19:19.631 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023/11/24 18:19:19.633 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023/11/24 18:19:19.787 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023/11/24 18:19:20.853 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a431a5a
+2023/11/24 18:19:20.857 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023/11/24 21:23:35.277 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2023/11/24 21:23:35.326 [main] INFO  c.y.k.i.InventoryManagementApp01Application - Starting InventoryManagementApp01Application using Java 17.0.8 with PID 9744 (C:\ProjectFiles\inventory_management_app01\build\classes\java\main started by USER in C:\ProjectFiles\inventory_management_app01)
+2023/11/24 21:23:35.326 [main] INFO  c.y.k.i.InventoryManagementApp01Application - No active profile set, falling back to 1 default profile: "default"
+2023/11/24 21:23:36.406 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023/11/24 21:23:36.412 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023/11/24 21:23:36.414 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023/11/24 21:23:36.414 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023/11/24 21:23:36.529 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023/11/24 21:23:36.530 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1163 ms
+2023/11/24 21:23:37.164 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023/11/24 21:23:37.197 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023/11/24 21:23:37.207 [main] INFO  c.y.k.i.InventoryManagementApp01Application - Started InventoryManagementApp01Application in 2.17 seconds (process running for 2.748)
+2023/11/24 21:25:09.089 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023/11/24 21:25:09.089 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023/11/24 21:25:09.090 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023/11/24 21:25:09.162 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023/11/24 21:25:09.704 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@b3205e6
+2023/11/24 21:25:09.706 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023/11/24 21:39:09.410 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2023/11/24 21:39:09.450 [main] INFO  c.y.k.i.InventoryManagementApp01Application - Starting InventoryManagementApp01Application using Java 17.0.8 with PID 26500 (C:\ProjectFiles\inventory_management_app01\build\classes\java\main started by USER in C:\ProjectFiles\inventory_management_app01)
+2023/11/24 21:39:09.450 [main] INFO  c.y.k.i.InventoryManagementApp01Application - No active profile set, falling back to 1 default profile: "default"
+2023/11/24 21:39:10.502 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023/11/24 21:39:10.508 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023/11/24 21:39:10.509 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023/11/24 21:39:10.509 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023/11/24 21:39:10.595 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023/11/24 21:39:10.597 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1106 ms
+2023/11/24 21:39:11.132 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023/11/24 21:39:11.161 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023/11/24 21:39:11.170 [main] INFO  c.y.k.i.InventoryManagementApp01Application - Started InventoryManagementApp01Application in 1.958 seconds (process running for 2.359)
+2023/11/24 21:39:18.900 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023/11/24 21:39:18.901 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023/11/24 21:39:18.902 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023/11/24 21:39:18.977 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023/11/24 21:39:19.439 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7de863e4
+2023/11/24 21:39:19.441 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023/11/24 21:43:15.507 [http-nio-8080-exec-2] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7de863e4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023/11/24 21:43:15.510 [http-nio-8080-exec-2] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@18d89aad (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023/11/24 21:43:15.512 [http-nio-8080-exec-2] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5992839d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023/11/24 21:43:15.513 [http-nio-8080-exec-2] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1d8f2cc3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023/11/24 21:43:15.516 [http-nio-8080-exec-2] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6cabe65b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023/11/24 21:43:15.518 [http-nio-8080-exec-2] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@30fa0491 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023/11/24 21:43:15.521 [http-nio-8080-exec-2] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7d39f778 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023/11/24 21:43:15.523 [http-nio-8080-exec-2] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@19b43528 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023/11/24 21:43:15.526 [http-nio-8080-exec-2] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2a9e817b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023/11/24 21:43:15.528 [http-nio-8080-exec-2] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4a20d635 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023/11/24 23:52:50.127 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h35m59s961ms569É s400ns).

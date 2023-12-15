@@ -1,0 +1,10 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yuuki.katou.inventory_management_app01.mapper.ReferenceDataMapper">
+
+    <resultMap id="brandResultMap" type="com.yuuki.katou.inventory_management_app01.entity.Brand">
+        <result property="brandName" column="brand_name"/>
+        <result property="address" column="address"/>
+        <result property="phoneNumber" column="phone_number"/>
+    </resultMap>
+</mapper>
+

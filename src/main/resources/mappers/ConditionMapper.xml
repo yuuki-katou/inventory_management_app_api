@@ -1,0 +1,8 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yuuki.katou.inventory_management_app01.mapper.ReferenceDataMapper">
+
+    <resultMap id="conditionResultMap" type="com.yuuki.katou.inventory_management_app01.entity.Condition">
+        <result property="conditionID" column="condition_id"/>
+        <result property="conditionName" column="condition_name"/>
+    </resultMap>
+</mapper>
