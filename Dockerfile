@@ -1,14 +1,7 @@
 # MySQL 8.0をDebianベースのイメージとして使用
 FROM mysql:8.0-debian
 
-# APTキャッシュをクリア
-RUN apt-get clean
-
-# 必要なパッケージをインストール
-RUN apt-get update && apt-get install -y wget
-
-# 新しいMySQL GPGキーを追加
-RUN wget https://repo.mysql.com/RPM-GPG-KEY-mysql-2022 -O /etc/apt/trusted.gpg.d/mysql.gpg
+RUN apt-get update --allow-insecure-repositories
 
 # Debianのパッケージリストを更新
 RUN apt-get update
