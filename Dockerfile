@@ -4,8 +4,8 @@ FROM mysql:8.0-debian
 # APTキャッシュをクリア
 RUN apt-get clean
 
-# 新しいMySQL GPGキーを追加
-RUN apt-key adv --keyserver pgp.mit.edu --recv-keys 3A79BD29
+# 新しいMySQL GPGキーを追加（修正されたコマンド）
+RUN wget https://repo.mysql.com/RPM-GPG-KEY-mysql-2022 -O /etc/apt/trusted.gpg.d/mysql.gpg
 
 # Debianのパッケージリストを更新
 RUN apt-get update
