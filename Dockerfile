@@ -1,8 +1,6 @@
 # MySQL 8.0をDebianベースのイメージとして使用
 FROM mysql:8.0-debian
 
-RUN apt-get update --allow-insecure-repositories
-
 # Debianのパッケージリストを更新
 RUN apt-get update
 
