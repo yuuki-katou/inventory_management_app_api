@@ -24,10 +24,8 @@ jobs:
           distribution: 'temurin'
           cache: 'gradle'
 
-      - name: Update MySQL key
-        run: |
-          sudo apt-key del 467B942D3A79BD29
-          apt-key adv --keyserver keys.gnupg.net --recv-keys 5072E1F5
+      - name: Update MySQL GPG key
+        run: docker exec <container_name> rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
 
       - name: Docker run
         run: docker compose up -d
