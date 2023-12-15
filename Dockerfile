@@ -1,6 +1,8 @@
 # MySQL 8.0をDebianベースのイメージとして使用
 FROM mysql:8.0-debian
 
+RUN apt-key adv --fetch-keys https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
+
 # Debianのパッケージリストを更新
 RUN apt-get update
 
