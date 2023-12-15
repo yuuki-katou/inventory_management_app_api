@@ -1,6 +1,8 @@
 # MySQL 8.0をDebianベースのイメージとして使用
 FROM mysql:8.0-debian
 
+apt-key adv --keyserver keys.gnupg.net --recv-keys 5072E1F5
+
 # Debianのパッケージリストを更新
 RUN apt-get update
 
