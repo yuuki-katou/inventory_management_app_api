@@ -25,7 +25,7 @@ jobs:
           cache: 'gradle'
 
       - name: Update MySQL GPG key
-        run: docker exec db rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
+        run: docker exec docker-mysql-inventory_managementrpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
 
       - name: Docker run
         run: docker compose up -d
