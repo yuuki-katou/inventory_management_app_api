@@ -14,6 +14,10 @@
 
 - **Docker**: コンテナ仮想化プラットフォーム。
 
+  ## アプリケーション概略図
+![アプリケーションの図](https://github.com/yuuki-katou/inventory_management_app_api/assets/142807995/ff94fa90-f5f3-4c2b-b445-2a99312528c4)
+
+
 ## 機能と特徴
 
 ### CRUD操作
