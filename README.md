@@ -15,7 +15,7 @@
 - **Docker**: コンテナ仮想化プラットフォーム。
 
 ## アプリケーション概略図
-<img src="https://github.com/yuuki-katou/inventory_management_app_api/assets/142807995/ff94fa90-f5f3-4c2b-b445-2a99312528c4" width="300" height="300" alt="アプリケーションの図">
+<img src="https://github.com/yuuki-katou/inventory_management_app_api/assets/142807995/ff94fa90-f5f3-4c2b-b445-2a99312528c4" width="500" height="550" alt="アプリケーションの図">
 
 
 
