@@ -97,9 +97,25 @@ CRUD操作は商品情報の登録、参照、更新、削除を可能にしま�
 ムスタンプ、HTTPステータスコード、各入力フィールドのエラーメッセージ、リクエストURI |
 
 ## 使用イメージ
-- 登録処理<br>
+### 登録処理
+デモとして商品「TEST GUITAR」を登録します。<br>
+処理完了後、新着順に並べ替え、商品情報が正常に登録されていることを確認しています。
 ![登録処理動画01](https://github.com/yuuki-katou/inventory_management_app_api/assets/142807995/24e26700-5f10-4843-9f53-587350c05744)
-- 更新処理<br>
+
+### 参照処理
+#### キーワード検索と並び替え
+キーワード「エレキギター」に関連する商品を一覧で取得しています。
+また並び替え機能を一通り試し、並びが期待している通りになるか確認しています。
+![IMG_6820](https://github.com/yuuki-katou/inventory_management_app_api/assets/142807995/89018a6d-cafb-4366-b05e-b4ef5b66053b)
+
+#### 詳細検索
+詳細検索を使用して商品情報を絞り込みます。<br>
+デモでは、カテゴリ：「アンプ」> ブランド：「ブランド1」> 価格下限：500,000　の順に設定して商品を絞り込んでいます。
+ ![参照処理（詳細検索）](https://github.com/yuuki-katou/inventory_management_app_api/assets/142807995/36eea4cc-3f1b-44d0-8f56-405fd53e2057)
+
+### 更新処理
+登録処理で新規登録した「TEST GUITAR」の情報を更新します。<br>
+今回は、商品名と説明文に「（更新済み）」という文字を追記しています。
 ![更新処理](https://github.com/yuuki-katou/inventory_management_app_api/assets/142807995/ceb49a7d-2ce6-475a-8917-c98bf3c955ce)
 
 
