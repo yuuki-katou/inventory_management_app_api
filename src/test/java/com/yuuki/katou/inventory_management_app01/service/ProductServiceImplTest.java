@@ -36,7 +36,7 @@ class ProductServiceImplTest {
 
 
     @Test
-    void 全ての商品情報が載ったリストが正常に返されること() {
+    void 全商品情報がリスト形式で返されること() {
         // モックデータの準備
         List<Product> mockProducts = Arrays.asList(
                 new Product(1, "商品1", "MD-1001", 1, 1, BigDecimal.valueOf(1000.00).setScale(2), 20, 1, "商品1の説明", "image1.jpg", 1, LocalDateTime.of(2023, 1, 1, 0, 0), LocalDateTime.of(2023, 1, 2, 0, 0), "ブランド1", "エレキギター", "新品", "店舗名1", "所在地1", "電話番号1"),
@@ -59,7 +59,7 @@ class ProductServiceImplTest {
     }
 
     @Test
-    void 商品情報がまったく存在しない場合にResourceNotFoundExceptionが返されること() {
+    void 商品情報が存在しない場合にResourceNotFoundExceptionが返されること() {
         // 商品情報が存在しない場合のテスト
         when(productMapper.findAll()).thenReturn(Arrays.asList());
 

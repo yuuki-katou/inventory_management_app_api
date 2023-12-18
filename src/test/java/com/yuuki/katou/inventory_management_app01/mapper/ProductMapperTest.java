@@ -177,7 +177,7 @@ class ProductMapperTest {
     @Test
     @DataSet({"datasets/05_products.yml"})
     @Transactional
-    void 存在しない商品を削除仕様とした場合失敗する() {
+    void 存在しない商品を削除しようとした場合失敗する() {
         int deletedRows = productMapper.deleteById(999);
         assertThat(deletedRows).isEqualTo(0);
     }
