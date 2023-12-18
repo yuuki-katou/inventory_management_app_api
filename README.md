@@ -105,6 +105,15 @@ CRUD操作は商品情報の登録、参照、更新、削除を可能にしま�
 - 失敗したテストケースの数: 0件
 
 ### 備考
-- テストは手動で実施されたため、結果の詳細は別途Excelファイルをご覧ください。<br>
+- 結果の詳細は別途Excelファイルをご覧ください。<br>
 [【テスト表】inventory_management_app.xlsx](https://github.com/yuuki-katou/inventory_management_app_api/files/13692267/inventory_management_app.xlsx)
-- 自動テストの実施は、今後実装予定です。
+- GitHub Actionsを使用したテストの実装は、後程行う予定です。
+
+## 今後の展望
+- クラウドへのデプロイ：AWSをベンダーとして予定しています。理由はベンダーの中で最も知見が豊富にある為です。
+ソリューションアーキテクトの勉強と並行して進めます。
+
+- ログイン機能とSpring Securityの導入: セキュリティを強化し、ユーザーの認証・認可を管理するために、Spring Securityを取り入れる予定です。
+
+- GitHub Actionsの活用: Pull requestが行われた際に自動テストが実行されるように、GitHub Actionsを設定する予定です。
+
