@@ -98,7 +98,10 @@ CRUD操作は商品情報の登録、参照、更新、削除を可能にしま�
 
 ## 使用イメージ
 - 登録処理<br>
-https://github.com/yuuki-katou/inventory_management_app_api/assets/142807995/2ff4d14c-d406-480f-8454-e8e17e8ca175  
+
+https://github.com/yuuki-katou/inventory_management_app_api/assets/142807995/895bd72e-67a5-4f48-b3dd-e591c2cc55f6
+
+
 
 ## テスト
 
